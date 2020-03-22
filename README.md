@@ -1,9 +1,6 @@
 # astronomia en latinoamerica
 
-<<insertHTML:[./notebook/mapa_astronomia_latinoamerica.html]
 
-{r, echo=FALSE}
-htmltools::includeHTML("./notebook/mapa_astronomia_latinoamerica.html")
 
 
 ## Argentina

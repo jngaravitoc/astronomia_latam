@@ -1,6 +1,10 @@
 # astronomia en latinoamerica
 
-[Ver Mapa](./notebook/mapa_astronomia_latinoamerica.html)
+<<insertHTML:[./notebook/mapa_astronomia_latinoamerica.html]
+
+```{r, echo=FALSE}
+htmltools::includeHTML("./SPM/animated_choropleth.html")
+```
 
 ## Argentina
 Universidades:

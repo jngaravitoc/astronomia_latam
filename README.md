@@ -2,9 +2,9 @@
 
 <<insertHTML:[./notebook/mapa_astronomia_latinoamerica.html]
 
-```{r, echo=FALSE}
-htmltools::includeHTML("./SPM/animated_choropleth.html")
-```
+{r, echo=FALSE}
+htmltools::includeHTML("./notebook/mapa_astronomia_latinoamerica.html")
+
 
 ## Argentina
 Universidades:

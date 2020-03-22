@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_74037273eada44f6bcda313196c8f292 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_74037273eada44f6bcda313196c8f292" ></div>
+        
+</body>
+<script>    
+    
+            var map_74037273eada44f6bcda313196c8f292 = L.map(
+                "map_74037273eada44f6bcda313196c8f292",
+                {
+                    center: [-20.0, -70.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    preferCanvas: false,
+                    zoomControl: true,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_619f9ce700e14328921f40680257c99e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_74037273eada44f6bcda313196c8f292);
+        
+    
+            var marker_cluster_25d891a16f4b47dbba5636f06df0ab81 = L.markerClusterGroup(
+                {}
+            );
+            map_74037273eada44f6bcda313196c8f292.addLayer(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+            var marker_f8546b96f07d4997ab111e79067230b7 = L.marker(
+                [4.63874255, -74.08523775754497],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_abb4b3922e5146b1b735a2c2f78bca4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96e3835359d94cccbc22d17fcb26cc10 = $(`<div id="html_96e3835359d94cccbc22d17fcb26cc10" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad Nacional de Colombia</a></div>`)[0];
+            popup_abb4b3922e5146b1b735a2c2f78bca4a.setContent(html_96e3835359d94cccbc22d17fcb26cc10);
+        
+
+        marker_f8546b96f07d4997ab111e79067230b7.bindPopup(popup_abb4b3922e5146b1b735a2c2f78bca4a)
+        ;
+
+        
+    
+    
+            var marker_43cc109819eb4d9f835af810812f317c = L.marker(
+                [4.6013379, -74.06480446596362],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_b8ddb483a69a43a38e952e36a188161e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d01fa00a05c48b2808becfef1ddb5e7 = $(`<div id="html_9d01fa00a05c48b2808becfef1ddb5e7" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad de los Andes</a></div>`)[0];
+            popup_b8ddb483a69a43a38e952e36a188161e.setContent(html_9d01fa00a05c48b2808becfef1ddb5e7);
+        
+
+        marker_43cc109819eb4d9f835af810812f317c.bindPopup(popup_b8ddb483a69a43a38e952e36a188161e)
+        ;
+
+        
+    
+    
+            var marker_e513b41022bc4c2fb7b41baae268d868 = L.marker(
+                [6.2678539, -75.5690221],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_914d2c48ae3649eaaac96aefac25b78f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0bc3898c0444cafac6e91c50ee43c98 = $(`<div id="html_b0bc3898c0444cafac6e91c50ee43c98" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad de Antioquia</a></div>`)[0];
+            popup_914d2c48ae3649eaaac96aefac25b78f.setContent(html_b0bc3898c0444cafac6e91c50ee43c98);
+        
+
+        marker_e513b41022bc4c2fb7b41baae268d868.bindPopup(popup_914d2c48ae3649eaaac96aefac25b78f)
+        ;
+
+        
+    
+    
+            var marker_9be6114ba2e047b4a04f48c9ef26da49 = L.marker(
+                [18.9960817, -98.2056863],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_dd63664830a2425a8c8997cc2e83bc2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afd70917c0bd4091999b79c947c003d8 = $(`<div id="html_afd70917c0bd4091999b79c947c003d8" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad Autonoma de Mexico</a></div>`)[0];
+            popup_dd63664830a2425a8c8997cc2e83bc2d.setContent(html_afd70917c0bd4091999b79c947c003d8);
+        
+
+        marker_9be6114ba2e047b4a04f48c9ef26da49.bindPopup(popup_dd63664830a2425a8c8997cc2e83bc2d)
+        ;
+
+        
+    
+    
+            var marker_ffd5aea544a643e4a053fc286f17ff8c = L.marker(
+                [19.03241635, -98.31459408229011],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_7e352ec82afd4be6a1255a741f8edc99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e04f588f1ea45ea979e9fc60344e26d = $(`<div id="html_0e04f588f1ea45ea979e9fc60344e26d" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Instituto Nacional de Astrofisica Optica y Electronica</a></div>`)[0];
+            popup_7e352ec82afd4be6a1255a741f8edc99.setContent(html_0e04f588f1ea45ea979e9fc60344e26d);
+        
+
+        marker_ffd5aea544a643e4a053fc286f17ff8c.bindPopup(popup_7e352ec82afd4be6a1255a741f8edc99)
+        ;
+
+        
+    
+    
+            var marker_78a117840f7b4515ab1617b84387f846 = L.marker(
+                [28.6987539, -106.1338575],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_c08788c6cd4a43cc86c0c01988500868 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25fa497989e340b8870be8e9748460c3 = $(`<div id="html_25fa497989e340b8870be8e9748460c3" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad de Guanajuato</a></div>`)[0];
+            popup_c08788c6cd4a43cc86c0c01988500868.setContent(html_25fa497989e340b8870be8e9748460c3);
+        
+
+        marker_78a117840f7b4515ab1617b84387f846.bindPopup(popup_c08788c6cd4a43cc86c0c01988500868)
+        ;
+
+        
+    
+    
+            var marker_a8c2ded5d6f44f15b1fb09703e059123 = L.marker(
+                [-34.508711500000004, -58.68837906432547],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_f255b5cad3c74ae7a0cbd72d7c2b3da0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41af8bfc3c0f4f1999793dd11096792e = $(`<div id="html_41af8bfc3c0f4f1999793dd11096792e" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad de Buenos Aires</a></div>`)[0];
+            popup_f255b5cad3c74ae7a0cbd72d7c2b3da0.setContent(html_41af8bfc3c0f4f1999793dd11096792e);
+        
+
+        marker_a8c2ded5d6f44f15b1fb09703e059123.bindPopup(popup_f255b5cad3c74ae7a0cbd72d7c2b3da0)
+        ;
+
+        
+    
+    
+            var marker_6d5cf61dbd044b199dcbc0bfb6b23c8e = L.marker(
+                [-34.9052242, -56.1735294],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_885d204751b641229d8565c4e54de89c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efb57ded06484061b0ed6832f09bbce3 = $(`<div id="html_efb57ded06484061b0ed6832f09bbce3" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad de la republica</a></div>`)[0];
+            popup_885d204751b641229d8565c4e54de89c.setContent(html_efb57ded06484061b0ed6832f09bbce3);
+        
+
+        marker_6d5cf61dbd044b199dcbc0bfb6b23c8e.bindPopup(popup_885d204751b641229d8565c4e54de89c)
+        ;
+
+        
+    
+    
+            var marker_92145f373af94249978e79696bb6beec = L.marker(
+                [-33.4397648, -70.6398928],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_8bc46726ed114e1a81be612ec9852da6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3825433bbed44ee685154321cb3e0dc8 = $(`<div id="html_3825433bbed44ee685154321cb3e0dc8" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad Catolica de Chile</a></div>`)[0];
+            popup_8bc46726ed114e1a81be612ec9852da6.setContent(html_3825433bbed44ee685154321cb3e0dc8);
+        
+
+        marker_92145f373af94249978e79696bb6beec.bindPopup(popup_8bc46726ed114e1a81be612ec9852da6)
+        ;
+
+        
+    
+    
+            var marker_47c69e059f42441d9123e77f743062d3 = L.marker(
+                [-23.702752750000002, -70.42113335381123],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_54b611a992204f61886fef28e1d6751a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_109a822ef4ae4a2bb1d2aad0dd9e63ad = $(`<div id="html_109a822ef4ae4a2bb1d2aad0dd9e63ad" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad de Antofagasta</a></div>`)[0];
+            popup_54b611a992204f61886fef28e1d6751a.setContent(html_109a822ef4ae4a2bb1d2aad0dd9e63ad);
+        
+
+        marker_47c69e059f42441d9123e77f743062d3.bindPopup(popup_54b611a992204f61886fef28e1d6751a)
+        ;
+
+        
+    
+    
+            var marker_aa8eba84bd044db39a3e2916cae79ac7 = L.marker(
+                [-33.4439386, -70.6510174],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_1c59da19070540a289a533089e3b55a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aed66e0480464f4db5e43dde3217161a = $(`<div id="html_aed66e0480464f4db5e43dde3217161a" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad de Chile</a></div>`)[0];
+            popup_1c59da19070540a289a533089e3b55a6.setContent(html_aed66e0480464f4db5e43dde3217161a);
+        
+
+        marker_aa8eba84bd044db39a3e2916cae79ac7.bindPopup(popup_1c59da19070540a289a533089e3b55a6)
+        ;
+
+        
+    
+    
+            var marker_d0cafbfd03114f27a5d8940213e4b2e5 = L.marker(
+                [-30.0035804, -70.8166002],
+                {}
+            ).addTo(marker_cluster_25d891a16f4b47dbba5636f06df0ab81);
+        
+    
+        var popup_2345c85786794568902850d2dda61667 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27c8f29fc0014792ad5a5b7c6f2c243d = $(`<div id="html_27c8f29fc0014792ad5a5b7c6f2c243d" style="width: 100.0%; height: 100.0%;"><a href="www.unal.edu.co"target="_blank">Universidad de la Serena</a></div>`)[0];
+            popup_2345c85786794568902850d2dda61667.setContent(html_27c8f29fc0014792ad5a5b7c6f2c243d);
+        
+
+        marker_d0cafbfd03114f27a5d8940213e4b2e5.bindPopup(popup_2345c85786794568902850d2dda61667)
+        ;
+
+        
+    
+</script>

@@ -1,5 +1,7 @@
 # astronomia en latinoamerica
 
+[Ver Mapa](./notebook/mapa_astronomia_latinoamerica.html)
+
 ## Argentina
 Universidades:
 - Universidad de Buenos Aires

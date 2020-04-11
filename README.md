@@ -1,6 +1,6 @@
 # astronomia en latinoamerica
 
-
+Informacion de facultadades en america latina y de observatorios. 
 
 
 ## Argentina

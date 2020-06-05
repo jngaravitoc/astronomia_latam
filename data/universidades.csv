@@ -1,22 +1,32 @@
 #Nombre,  pais, maestria, doctorado, becas, descripcion, pagina
+# Colombia
 Universidad Nacional de Colombia, Colombia, 1, 1, 1, Obervatorio Astronomico Nacional de la Universidad Nacional de Colombia, http://ciencias.bogota.unal.edu.co/departamentos/observatorio-astronomico-nacional/el-observatorio/
 Universidad de los Andes, Colombia, 0, 0, 1, Facultad de fisica con grupos de investigacion en astronomia, https://fisica.uniandes.edu.co/
 Universidad de Antioquia, Colombia, 0, 0, 2, Facultad de fisica con grupos de investigacion en astronomia, http://astronomia-udea.co/principal/es
 Universidad Industrial de Santander, Colombia, 1, 1, 2, Departamento de fisica con grupos de investigacion en astronomia, https://halley.uis.edu.co/
 Universidad Pedagogica y tecnologica de colombia, Colombia, 1, 1, 2, Facultad de fisica con grupos de investigacion en astronomia, http://www.uptc.edu.co/facultades/f_ciencias/pregrado/fisica/inf_adicional/
-Universidad autonoma de Mexico, Mexico, 1, 1, 1, Tiene varias sedes: Ciudad de Mexico Ensenada y Morelia, http://www.astroscu.unam.mx/IA/index.php?lang=es
-Universidad de Guanajuato, Mexico, 1, 1, 1, , http://www.astro.ugto.mx/
-Instituto Nacional de Astrofisica Optica y Electronica,  Mexico, 1, 1, 1, ,https://www.inaoep.mx/
+# Brasil
 Universidad de Sao Paulo, Brasil, 1, 1, 1, , 
-Univerisdad estatal de santa catarina, Brasil , 1, 1, 1 , ,  
-OAN Rio de Janeiro, Brasil, 1, 1, 1, Astronomia y geofisica, http://www.on.br/index.php/pt-br/
-Overvatorio Valongo, Brasil, 1, 1, 1, , https://ov.ufrj.br/en/home-2/ 
-Instituto de Astronomía de la UNAM , México, 1, 1, 1, , 
-Instituto de Astronomía UNAM Ensenada  Baja California, Mexico, 1, 1, 1, , 
-Centro de Radioastronomía y Astrofísica de la UNAM Morelia  Michoacán, mexico, 1, 1, 1, , 
-Área de Astronomía  Universidad de Sonora Hermosillo, Mexico, 1, 1, 1, , 
-Departamento de Astronomía Universidad de Guanajuato, Mexico, 1, 1, 1, ,
-Instituto de Astronomía y Meteorología de la Universidad de Guadalajara, Mexico, 1, 1, 1, ,
-Página de Astronomía del Departamento de Física y Matemáticas de la Universidad de Monterrey, Mexico, 1, 1, 1, ,
-Departamento de Astronomía Universidad Autónoma de Nuevo León, Mexico, 1, 1, 1, , 
-
+Universidade federal de santa catarina, Brasil , 1, 1, 1 , ,  
+Observatorio nacional de  Rio de Janeiro , Brasil, 1, 1, 1, Astronomia y geofisica, http://www.on.br/index.php/pt-br/
+Observatorio Valongo, Brasil, 1, 1, 1, , https://ov.ufrj.br/en/home-2/ 
+# Mexico
+UNAM mexico DF, México, 1, 1, 1, , http://www.astroscu.unam.mx/IA/index.php?lang=es 
+UNAM Ensenada  Baja California, Mexico, 1, 1, 1, , 
+Instituto de Radioastronomía y Astrofísica, mexico, 1, 1, 1, , http://www.irya.unam.mx/web/ 
+Universidad de Sonora Hermosillo, Mexico, 1, 1, 1, , 
+Universidad de Guanajuato, Mexico, 1, 1, 1, ,
+Universidad de Guadalajara, Mexico, 1, 1, 1, ,
+Universidad de Monterrey, Mexico, 1, 1, 1, ,
+Universidad Autónoma de Nuevo León, Mexico, 1, 1, 1, , 
+Instituto Nacional de Astrofisica Optica y Electronica,  Mexico, 1, 1, 1, ,https://www.inaoep.mx/
+#Chile
+#Universidad de Valparaíso: Magíster en Astrofísica. Sitio web. Doctorado en Astrofísica. Sitio web.
+#Pontificia Universidad Católica de Chile: Magíster en Astrofísica. Sitio web. Doctorado en Astrofísica. Sitio web.
+Universidad Andres Bello: Magíster en Ciencias Físicas. https://astrounab.cl , Doctorado en Astrofísica. .
+#Universidad de Concepción: Magíster en Ciencias con mención física. Sitio web. Doctorado en Ciencias Físicas. Sitio web.
+#Universidad Católica del Norte: Magister en Ciencias con mención en Física. Sitio web. Doctorado en Ciencias mención Física. Sitio web.
+#Universidad de La Serena: Magister en Astronomía. Sitio web. Doctorado en Astronomía. Sitio web
+#Pontificia Universidad Católica de Valparaíso: Magíster en ciencias con meción en Física. Sitio web. Doctorado en Ciencias Físicas. Sitio web.
+#Universidad de Chile: Magíster en Ciencias, mención Astronomía. Sitio web. Doctorado en Ciencias, mención Astronomía. Sitio web
+#Universidad Tecnica Federico Santa María: Magister en Ciencia, mención Física. Sitio web. Doctorado en Ciencias, mención Física. Sitio web.
